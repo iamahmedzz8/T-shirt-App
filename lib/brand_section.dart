@@ -41,7 +41,7 @@ class BrandsSection extends StatelessWidget {
                     child: Text(
                       brand['logo']!,
                       style: TextStyle(
-                        fontSize: brand['name'] == 'Zara'
+                        fontSize: brand['name']    == 'Zara'
                             ? 23
                             : 25,
                         fontWeight: FontWeight.w900,
